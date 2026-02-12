@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando la Inteligencia Artificial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #1e3a8a;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explorando la Inteligencia Artificial</h1>
+</header>
+
+<nav>
+    <a href="#intro">Inicio</a>
+    <a href="#aplicaciones">Aplicaciones</a>
+    <a href="#futuro">El Futuro</a>
+</nav>
+
+<div class="container">
+
+    <section id="intro">
+        <h2>¿Qué es la Inteligencia Artificial?</h2>
+        <p>
+            La Inteligencia Artificial (IA) es una rama de la informática que desarrolla sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de voz, análisis de datos y toma de decisiones.
+        </p>
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="Inteligencia Artificial">
+    </section>
+
+    <section id="aplicaciones" class="grid">
+        <div>
+            <h2>Aplicaciones Actuales</h2>
+            <p>
+                La IA se utiliza en asistentes virtuales, sistemas de recomendación, vehículos autónomos, diagnóstico médico y automatización industrial. Su impacto en la productividad y eficiencia es cada vez mayor.
+            </p>
+            <img src="https://images.unsplash.com/photo-1581090700227-1e8b6d5a3f15" alt="Aplicaciones de IA">
+        </div>
+
+        <div>
+            <h2>Impacto en la Sociedad</h2>
+            <p>
+                La inteligencia artificial está transformando sectores económicos completos. Permite optimizar procesos, reducir costos y mejorar la toma de decisiones basada en datos.
+            </p>
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Tecnología y Sociedad">
+        </div>
+    </section>
+
+    <section id="futuro">
+        <h2>El Futuro de la IA</h2>
+        <p>
+            Se espera que la IA continúe evolucionando hacia sistemas más autónomos y éticos, con regulaciones que aseguren su uso responsable. La combinación de datos, algoritmos y capacidad computacional seguirá impulsando la innovación.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Explorando la Inteligencia Artificial | Desarrollo Web HTML5 y CSS3</p>
+</footer>
+
+</body>
+</html>
